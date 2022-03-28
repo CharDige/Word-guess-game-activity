@@ -1,0 +1,22 @@
+:root {
+    --dark-color: #003204;
+    --light-color: #fff;
+    --light-green-highlight: #01fe44;
+    --font-family: Arial, sans-serif;
+}
+
+* {
+    font-family: var(--font-family);
+}
+
+/* Header element styling */
+header {
+    background-color: var(--dark-color);
+    padding: 30px;
+    align-items: center;
+    color: var(--light-color);
+}
+
+#word-guess {
+    margin: 10px;
+}

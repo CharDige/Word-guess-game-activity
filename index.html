@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Word guess game</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            Word guess game!
+        </h1>
+        <p>
+            Guess the coding word! Press start to begin.
+        </p>
+        <button id="start">START</button>
+        <button id="restart">RESTART</button>
+    </header>
+
+    <main>
+        <section class="card">
+            <div id="word-guess">
+                <button id="test-wins">Click to win!</button>
+                <button id="test-losses">Click to lose!</button>
+            </div>
+        </section>
+
+        <section class="card">
+            <div id="results">
+                <p>
+                    Wins: <span id="saved-wins"></span>
+                </p>
+                <p>
+                    Losses: <span id="saved-losses"></span>
+                </p>
+            </div>
+            <div id="timer">
+                <p>
+                    Time left: <span id="timeleft"></span>
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
